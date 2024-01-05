@@ -1,0 +1,32 @@
+.bgNavbar {
+    background-color: blueviolet;
+}
+.containerMax {
+    display: flex;  
+    justify-content: flex-end;
+    padding: 40px;
+   
+}
+
+
+.divisorVertical {
+    border: 1.5px solid grey;
+    color: #ffffff !important; /* Estilo de línea vertical */
+    padding: 5px;
+    padding-top: 10px;
+    background-color: grey;
+    border-radius: 30px;
+    height: 65%;
+    width: 50px;
+   
+  }
+  
+.a {
+    text-decoration: none;
+    color: white
+}
+.contenedorHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
