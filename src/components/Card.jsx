@@ -18,7 +18,7 @@ const Card = () => {
                     <p className={bgCard.cardText}>
                         Soy autodidacta, obstinada en lograr mis objetivos, como desarrollarme y crecer en el mundo IT, soy paciente a
                         la hora de resolver problemas que requieran presiones de tiempo, tengo un buen desarrollo en relaciones interpersonales.
-                        Mi deseo es tener la oportunidad de poder desenvolverme, aprender, adquirir experiencia en frontend que es donde
+                        Mi deseo es tener la oportunidad de poder desenvolverme, aprender, seguir adquiriendo experiencia en frontend que es donde
                         encontré mi lugar, donde sé que puedo brindar lo mejor de mí, de igual manera tengo conocimientos en backend
                         con los lenguajes de Java y JavaScript y también trabajé con bases de datos relacionales como MySql y MongoDB
                     </p>

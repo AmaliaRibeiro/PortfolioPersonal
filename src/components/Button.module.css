@@ -22,6 +22,7 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
+  text-align: center;
 }
 
 
@@ -83,7 +84,6 @@
 }
 
 .card3 {
-  display: flex;
   border: 1px solid white;
   /* Borde de la tarjeta */
   border-radius: 8px;
@@ -103,44 +103,64 @@
   margin-top: 50px;
   color: white;
   width: 60%;
-
+  background-image: url(../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg);
 }
 .cardExperience {
-  width: 800px;
-  box-shadow: 0px 0px 5px 0px black;
-  background-color: #3f3f3f;
+  width: 810px;
+ background-color: black;
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
-  margin: 5px;
+  margin: 8px;
   transition: all 450ms;
+  border: 1px solid rgb(108, 96, 102);
+}
+.card4 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr ;
+  border: 1px solid white;
+  /* Borde de la tarjeta */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  overflow: hidden;
+  /* Oculta el contenido que desborda */
+  margin: 20px;
+  /* Márgenes externos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  /* Sombra de la tarjeta */
+  transition: transform 0.3s ease-in-out;
+  /* Transición al hacer hover */
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
+  margin-left: 20%;
+  margin-top: 50px;
+  color: white;
+  width: 60%;
+}
+.cardInterest {
+ background-color: black;
+  border-radius: 3px;
+  scroll-snap-align: center;
+  padding: 10px;
+  margin: 8px;
+  transition: all 450ms;
+  border: 1px solid rgb(108, 96, 102);
+}
+.cardContact {
+  width: 810px;
+ background-color: black;
+  border-radius: 3px;
+  scroll-snap-align: center;
+  padding: 10px;
+  margin: 8px;
+  transition: all 450ms;
+  border: 1px solid rgb(108, 96, 102);
 }
 .title3 {
   width: 100%;
 }
-.card4 {
-  display: flex;
-  border: 1px solid white;
-  /* Borde de la tarjeta */
-  border-radius: 8px;
-  /* Bordes redondeados */
-  overflow: hidden;
-  /* Oculta el contenido que desborda */
-  margin: 20px;
-  /* Márgenes externos */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  /* Sombra de la tarjeta */
-  transition: transform 0.3s ease-in-out;
-  /* Transición al hacer hover */
-  justify-content: center;
-  align-items: center;
-  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
-  margin-left: 20%;
-  margin-top: 50px;
-  color: white;
-  width: 60%;
 
-}
 
 .containerSkills {
   display: grid;
@@ -166,10 +186,11 @@
 }
 
 .card2 img {
+  
   width: 78%;
   height: 200px;
   margin-left: 35px;
-
+  transition: transform 0.3s ease-in-out;
 }
 
 .certificadoTitle1 {
@@ -187,4 +208,10 @@
   /* La etiqueta abarcará dos columnas */
 
   text-align: center;
+}
+.cardCertif {
+  transition: transform 0.3s ease-in-out;
+}
+.cardCertif:hover {
+  transform: scale(1.05); /* Efecto de escala al hacer hover */
 }
