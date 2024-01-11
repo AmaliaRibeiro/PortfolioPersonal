@@ -1,10 +1,25 @@
+import { CardProject } from '../components/CardProject'
+
+import Navbar from '../components/Navbar'
+
+import cardCss from '../components/Card.module.css'
+
+import { Container, Row, Col } from 'react-bootstrap'
+
 export const Projects = () => {
-    const Styles = { color: 'white'}
     return (
         <>
-        <h2 style= {Styles}> Proyectos realizados </h2>
-        <h2 style= {Styles}> Proyectos realizados </h2>
-        <h2 style= {Styles}> Proyectos realizados </h2>
+            <Container >
+                <Row className={cardCss.contenedorHome}>
+                    <Col>
+                        <CardProject className={cardCss.contenedorHome} />
+                    </Col>
+                    <Col className={cardCss.contenedorHome}>
+                        <Navbar />
+
+                    </Col>
+                </Row>
+            </Container>
         </>
     )
 }

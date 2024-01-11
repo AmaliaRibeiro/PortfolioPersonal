@@ -14,7 +14,7 @@ const Card = () => {
 
                 <div className={bgCard.container2}>
                     <h5 className="card-title">Amalia Ribeiro</h5>
-                    <h4> Frontend & Full stack Developer</h4>
+                    <h4> Frontend Developer</h4>
                     <p className={bgCard.cardText}>
                         Soy autodidacta, obstinada en lograr mis objetivos, como desarrollarme y crecer en el mundo IT, soy paciente a
                         la hora de resolver problemas que requieran presiones de tiempo, tengo un buen desarrollo en relaciones interpersonales.

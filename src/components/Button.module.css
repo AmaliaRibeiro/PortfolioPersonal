@@ -100,12 +100,11 @@
   /* Transición al hacer hover */
   justify-content: center;
   align-items: center;
-  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
   width: 60%;
-  background-image: url(../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg);
+  background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg");
 }
 .cardExperience {
   width: 810px;
@@ -269,7 +268,6 @@
   font-size: 15px;
   grid-column: span 2;
   /* La etiqueta abarcará dos columnas */
-
   text-align: center;
 }
 .cardCertif {
@@ -277,4 +275,60 @@
 }
 .cardCertif:hover {
   transform: scale(1.05); /* Efecto de escala al hacer hover */
+}
+.containerCardPro {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  
+  /* Borde de la tarjeta */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  overflow: hidden;
+  /* Oculta el contenido que desborda */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  width: 1000px;
+  margin-left: 18%;
+  place-items: center;
+  margin-top: 40px;
+}
+.card6 {
+  border: 1px solid white;
+  /* Borde de la tarjeta */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  overflow: hidden;
+  /* Oculta el contenido que desborda */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  /* Sombra de la tarjeta */
+  transition: transform 0.3s ease-in-out;
+  /* Transición al hacer hover */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  width: 450px;
+  background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg");
+ 
+}
+.card6:hover {
+  transform: scale(1.05); /* Efecto de escala al hacer hover */
+}
+.cardProject{
+  width: 410px;
+  background-color: black;
+  border-radius: 3px;
+  scroll-snap-align: center;
+  padding: 10px;
+  margin: 8px;
+  transition: all 450ms;
+  border: 1px solid rgb(108, 96, 102);
+  text-align: center;
+  
+}
+.cardProject img {
+  width: 410px;
+  height: 230px;
 }
