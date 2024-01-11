@@ -1,7 +1,7 @@
 
 .bgHeader {
     display: flex;
-    background-image: url("../images/pink-dust-particles-splash-against-black-background.jpg");
+    background-image: url("./public/images/pink-dust-particles-splash-against-black-background.jpg");
     justify-content: end;
     padding: 15px;
     cursor: pointer;

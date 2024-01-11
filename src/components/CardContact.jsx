@@ -25,7 +25,7 @@ export const CardContact = () => {
                         <p><FaPhoneAlt /> +543764-210156</p>
                 </div>
                 <div className={button.imgMap}>
-                    <img src="./src/images/mapaPosadas.png" alt="Mapa Posadas" />
+                    <img src="./public/images/mapaPosadas.png" alt="Mapa Posadas" />
                     <div className={button.containerBtn2}>
                         <a className={button.btnBoton2} href={ubicacionUrl} target="_blank" rel="noopener noreferrer"> <FaLocationDot /> Posadas, Misiones-Argentina</a>
                     </div>

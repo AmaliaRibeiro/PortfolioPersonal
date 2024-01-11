@@ -23,7 +23,7 @@ export const Skills = () => {
 
                     <div className={button.containerSkills} >
                         <h5>SCRUM</h5>
-                        <img className={button.skills} src="./src/images/imgSkills/agileScrum.png" alt="agile Scrum" />
+                        <img className={button.skills} src="./public/images/imgSkills/agileScrum.png" alt="agile Scrum" />
                         <h5>BOOTSTRAP</h5>
                         <FaBootstrap size="50px" className={button.skills} />
                         <h5>CSS</h5>

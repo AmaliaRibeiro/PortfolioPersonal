@@ -1,5 +1,5 @@
 .bg {
-    background-image: url("../images/artistic-blurry-colorful-wallpaper-background.jpg");
+    background-image: url("./public/images/artistic-blurry-colorful-wallpaper-background.jpg");
     background-size: cover;
     max-width: 100%;
     height: 100%;
