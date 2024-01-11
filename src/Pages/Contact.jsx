@@ -1,25 +1,26 @@
-import button from '../components/Button.module.css'
 
+import { CardContact } from '../components/CardContact'
+import Navbar from '../components/Navbar'
+
+import cardCss from '../components/Card.module.css'
+
+import { Container, Row, Col } from 'react-bootstrap'
 
 export const Contact = () => {
-    const Styles = { color: 'white', textAlign: 'center' }
+
     return (
         <>
+            <Container >
+                <Row className={cardCss.contenedorHome}>
+                    <Col >
+                        <CardContact className={cardCss.contenedorHome} />
+                    </Col>
+                    <Col className={cardCss.contenedorHome}>
+                        <Navbar />
 
-            <h2 style={Styles}> CONTACTO </h2>
-            <div className={button.card2}>
-                
-                <div className={button.cardContact}>
-                    <p>Si buscas alguien con muchas ganas de crecer, aprender, con entusiasmo, autodidacta
-                        dispuesta a resolver problemas, a trabajar en equipo, adaptable a los cambios.
-                        Con tiempo full-time, disponible para incorporarse inmediatamente. Podes enviarme un Email directamente.
-                    </p>
-                    <div className={button.containerBtn}>
-                        <p className={button.btnBoton} >Enviar Email</p>
-                    </div>
-                </div>
-
-            </div>
+                    </Col>
+                </Row>
+            </Container>
         </>
     )
 }

@@ -82,7 +82,7 @@ export const AboutMe = () => {
                 <h3 className={button.title}>EXPERIENCIA</h3>
                 <div className={button.card3}>
                     <div className={button.cardExperience}>
-                        <h4 className={button.title3}>Full-Stack Developer</h4>
+                        <h4 className={button.title3}>Full-Stack Developer (Ecommers vitinícola)</h4>
                         <p>Fue el primer proyecto que tuve el privilegio de trabajar en el marco del Bootcamp de digital House,
                             junto a mi equipo, trabajamos con la metodologia ágil: Scrum, utilizamos la herramienta Jira para manejo de tiempo, organizacion
                             entrega de sprints, en este proceso pude participar del armado de la idea, objetivos, diseño de wireframes de las distintas interfaces de la app.
@@ -94,14 +94,14 @@ export const AboutMe = () => {
                         </p>
                     </div>
                     <div className={button.cardExperience}>
-                        <h4 className={button.title3}>Freelance Frontend</h4>
+                        <h4 className={button.title3}>Freelance Frontend (Stock zapatos)</h4>
                         <p> Cree el diseño y desarrollé mi pagina de calzados en stock para el emprendimiento que llevo adelante de ventas online,
                             utilicé Vue3 como framework junto a vite como entorno de desarrollo para mostrar todos los zapatos que tengo en stock con sus talles
                             y precios también con su carrito de compras visible.
                         </p>
                     </div>
                     <div className={button.cardExperience}>
-                        <h4 className={button.title3}>Freelance Frontend</h4>
+                        <h4 className={button.title3}>Freelance Frontend (Formulario de registro)</h4>
                         <p> Desarrollé un formulario de registro para pacientes de una veterinaria, se pueden agregar pacientes, editar, actualizar y eliminarlos,
                             utilicé Vue3 como framework junto a vite como entorno de desarrollo, para darle estilos a la página
                             utilice taildwind CSS.
