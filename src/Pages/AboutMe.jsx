@@ -49,28 +49,28 @@ export const AboutMe = () => {
                 <div className={button.card2}>
                     <div className={button.cardCertif}>
                         <h5 className={button.certificadoTitle1}>Fullstack Digital House</h5>
-                        <img src="./public/images/certificados/fullstackCertificado.png" alt="fullstack" />
+                        <img src="./images/certificados/fullstackCertificado.png" alt="fullstack" />
 
                     </div>
                     <div className={button.cardCertif}>
                         <h5 className={button.certificadoTitle2}>Desarrolladora Frontend</h5>
-                        <img src="./public/images/certificados/frontend.png" alt="frontend" />
+                        <img src="./images/certificados/frontend.png" alt="frontend" />
                     </div>
                     <div className={button.cardCertif}>
                         <h5 className={button.certificadoTitle2}>Javascript avanzado </h5>
-                        <img src="./public/images/certificados/javascriptAvanzado.png" alt="frontend" />
+                        <img src="./images/certificados/javascriptAvanzado.png" alt="frontend" />
                     </div>
                     <div className={button.cardCertif}>
                         <h5 className={button.certificadoTitle2}>Programacion orientada a objetos </h5>
-                        <img src="./public/images/certificados/orientadoAObjetos.png" alt="frontend" />
+                        <img src="./images/certificados/orientadoAObjetos.png" alt="frontend" />
                     </div>
                     <div className={button.cardCertif}>
                         <h5 className={button.certificadoTitle2}>Ingles en el mundo IT </h5>
-                        <img src="./public/images/certificados/inglesPolo.png" alt="frontend" />
+                        <img src="./images/certificados/InglesPolo.png" alt="frontend" />
                     </div>
                     <div className={button.cardCertif}>
-                        <h5 className={button.certificadoTitle2}>Perfeccionamiento de la lengua inglesa </h5>
-                        <img src="./public/images/certificados/InglesInglesa.png" alt="frontend" />
+                        <h5 className={button.certificadoTitle2}>Perfeccionamiento lengua inglesa </h5>
+                        <img src="./images/certificados/InglesInglesa.png" alt="frontend" />
                     </div>
 
                 </div>
