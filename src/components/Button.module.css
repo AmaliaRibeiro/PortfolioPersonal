@@ -52,7 +52,7 @@
   /* Transición al hacer hover */
   justify-content: center;
   align-items: center;
-  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
+  background-image: url("./images/abstract-optical-laser-wallpaper.jpg");
   margin-left: 45%;
   margin-top: 50px;
   color: white;
@@ -77,7 +77,7 @@
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
-  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
+  background-image: url("./images/abstract-optical-laser-wallpaper.jpg");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
