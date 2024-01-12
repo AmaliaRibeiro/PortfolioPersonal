@@ -9,7 +9,7 @@ const Card = () => {
             <div className={bgCard.card}>
 
                 <div className={bgCard.container1}>
-                    <img src="./public/images/AmmaCv.png" alt="foto de perfil" />
+                    <img src="./images/AmmaCv.png" alt="foto de perfil" />
                 </div>
 
                 <div className={bgCard.container2}>
