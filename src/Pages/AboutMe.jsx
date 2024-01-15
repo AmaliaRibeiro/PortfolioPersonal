@@ -1,7 +1,7 @@
 import React from 'react'
 import { Skills } from '../components/Skills'
 import Navbar from '../components/Navbar'
-
+import { RiArrowUpDoubleLine } from "react-icons/ri";
 
 import cardCss from '../components/Card.module.css'
 import button from '../components/Button.module.css'
@@ -13,6 +13,7 @@ export const AboutMe = () => {
     
     return (
         <>
+        <div id="inicio"></div>
             <ul className={button.containerBtn}>
                 <li >
                     <a className={button.btnBoton} href="#skills">SKILLS</a>
@@ -142,8 +143,11 @@ export const AboutMe = () => {
                         <p>Ver series y documentales</p>
                     </div>
                 </div>
-
+              
             </div>
+            <a href="#inicio" className={button.arriba}>
+                <RiArrowUpDoubleLine />
+        </a>
         </>
     )
 }

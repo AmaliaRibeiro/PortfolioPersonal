@@ -338,3 +338,12 @@
   width: 410px;
   height: 230px;
 }
+.arriba {
+  width: 100px;
+  color: white;
+  padding: 10px;
+ 
+  font-size: 60px;
+  text-align: center;
+  margin-left: 750px;
+}
