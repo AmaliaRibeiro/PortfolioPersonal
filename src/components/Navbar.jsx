@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom"
 
 import Row from 'react-bootstrap/Row';
@@ -18,15 +18,16 @@ const Navbar = () => {
 
     return (
         <> 
+        
         <Container className={bgNavbar.containerMax}>
-       
+        
            <Row className={bgNavbar.divisorVertical} >
-           
+          
              <Col><Link className={bgNavbar.a} to= "/"><FaHome style={iconsStyles}/></Link></Col>
              <Col><Link className={bgNavbar.a} to= "/about-me"> <MdPersonPin style={iconsStyles}/></Link></Col>
              <Col><Link className={bgNavbar.a} to= "/projects"> <TfiBag style={iconsStyles}/></Link></Col>
              <Col><Link className={bgNavbar.a} to= "/contact"> <MdContactMail style={iconsStyles}/> </Link></Col>
-       
+           
           </Row>
          
 

@@ -48,7 +48,7 @@ export const AboutMe = () => {
 
                 <div className={button.card2}>
                     <div className={button.cardCertif}>
-                        <h5 className={button.certificadoTitle1}>Fullstack Digital House</h5>
+                        <h5 className={button.certificadoTitle2}>Fullstack Digital House</h5>
                         <img src="./images/certificados/fullstackCertificado.png" alt="fullstack" />
 
                     </div>
@@ -83,7 +83,7 @@ export const AboutMe = () => {
                 <div className={button.card3}>
                     <div className={button.cardExperience}>
                         <h4 className={button.title3}>Full-Stack Developer (Ecommers vitinícola)</h4>
-                        <p>Fue el primer proyecto que tuve el privilegio de trabajar en el marco del Bootcamp de digital House,
+                        <p>Fué el primer proyecto que tuve el privilegio de trabajar en el marco del Bootcamp de Digital House,
                             junto a mi equipo, trabajamos con la metodologia ágil: Scrum, utilizamos la herramienta Jira para manejo de tiempo, organizacion
                             entrega de sprints, en este proceso pude participar del armado de la idea, objetivos, diseño de wireframes de las distintas interfaces de la app.
                             Luego desarrollé diferentes páginas con HTML, CSS, JAVASCRIPT. Para luego seguir agregando modificaciones y mejoras

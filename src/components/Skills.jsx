@@ -22,33 +22,33 @@ export const Skills = () => {
                 <div className={button.card} id="skills">
 
                     <div className={button.containerSkills} >
-                        <h5>SCRUM</h5>
+                        <h4>SCRUM</h4>
                         <img className={button.skills} src="./images/imgSkills/agileScrum.png" alt="agile Scrum" />
-                        <h5>BOOTSTRAP</h5>
+                        <h4>BOOTSTRAP</h4>
                         <FaBootstrap size="50px" className={button.skills} />
-                        <h5>CSS</h5>
+                        <h4>CSS</h4>
                         <IoLogoCss3 size="50px" className={button.skills} />
-                        <h5>HTML</h5>
+                        <h4>HTML</h4>
                         <IoLogoHtml5 size="50px" className={button.skills} />
-                        <h5>JIRA</h5>
+                        <h4>JIRA</h4>
                         <FaJira size="50px" className={button.skills} />
-                        <h5>JAVASCRIPT</h5>
+                        <h4>JAVASCRIPT</h4>
                         <IoLogoJavascript size="50px" className={button.skills} />
-                        <h5>MYSQL</h5>
+                        <h4>MYSQL</h4>
                         <SiMysql size="50px" className={button.skills} />
-                        <h5>NODE JS</h5>
+                        <h4>NODE JS</h4>
                         <FaNodeJs size="50px" className={button.skills} />
-                        <h5>POSTMAN</h5>
+                        <h4>POSTMAN</h4>
                         <SiPostman size="50px" className={button.skills} />
-                        <h5>REACT</h5>
+                        <h4>REACT</h4>
                         <FaReact size="50px" className={button.skills} />
-                        <h5>SEQUELIZE</h5>
+                        <h4>SEQUELIZE</h4>
                         <SiSequelize size="50px" className={button.skills} />
-                        <h5>VUE3</h5>
+                        <h4>VUE3</h4>
                         <IoLogoVue size="50px" className={button.skills} />
-                        <h5>TAILDWIND</h5>
+                        <h4>TAILDWIND</h4>
                         <SiTailwindcss size="50px" className={button.skills} />
-                        <h5>GITHUB</h5>
+                        <h4>GITHUB</h4>
                         <FaGithub size="50px" className={button.skills} />
                     </div>
 

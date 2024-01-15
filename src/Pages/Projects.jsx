@@ -20,6 +20,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
+            
         </>
     )
 }

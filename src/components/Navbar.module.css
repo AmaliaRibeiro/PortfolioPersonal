@@ -18,7 +18,9 @@
     border-radius: 30px;
     height: 310px;
     width: 50px;
-   margin-top: 20px
+   margin-top: 20px;
+   position: relative;
+  display: inline-block;
   }
   
 .a {
@@ -30,3 +32,14 @@
     grid-template-columns: 1fr 1fr;
 
 }
+.tooltip {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Coloca el tooltip a la derecha del icono */
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
