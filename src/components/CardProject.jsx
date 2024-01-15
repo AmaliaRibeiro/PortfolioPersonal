@@ -1,7 +1,7 @@
 import button from './Button.module.css'
 
 export const CardProject = () => {
-    const Styles = { color: 'white', textAlign: 'center', marginLeft: '380px' }
+    const Styles = { color: 'white', textAlign: 'center', marginLeft: '490px' }
     return (
         <>
 

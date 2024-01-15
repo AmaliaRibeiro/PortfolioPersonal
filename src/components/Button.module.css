@@ -293,7 +293,7 @@
   /* Oculta el contenido que desborda */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   width: 1000px;
-  margin-left: 18%;
+  margin-left: 24%;
   place-items: center;
   margin-top: 40px;
 }
