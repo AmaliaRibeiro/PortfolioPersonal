@@ -22,12 +22,13 @@
   cursor: pointer;
   text-align: center;
   font-size: 18px;
-  font-weight:600
+  font-weight: 600
 }
 
 .btnBoton:hover {
   transform: scale(1.05);
 }
+
 .activo {
   color: white;
 }
@@ -82,7 +83,7 @@
   margin-top: 50px;
   color: white;
   width: 60%;
- height: 590px;
+  height: 590px;
 }
 
 .card3 {
@@ -106,9 +107,10 @@
   width: 850px;
   /*background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg");*/
 }
+
 .cardExperience {
   width: 810px;
- background-color: black;
+  background-color: black;
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -117,9 +119,10 @@
   border: 1px solid rgb(108, 96, 102);
   font-size: 18px;
 }
+
 .card4 {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr ;
+  grid-template-columns: 2fr 2fr 2fr;
   /*border: 1px solid white;*/
   /* Borde de la tarjeta */
   border-radius: 8px;
@@ -140,58 +143,64 @@
   color: white;
   width: 60%;
 }
+
 .cardInterest {
- background-color: black;
+  background-color: black;
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
   margin: 8px;
   transition: all 450ms;
   border: 1px solid rgb(108, 96, 102);
- 
+
 }
+
 .cardInterest p {
   font-size: 18px;
 }
+
 .title3 {
   width: 100%;
 }
+
 .card5 {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    /* Dos columnas de igual tamaño, ajusta según sea necesario */
-    border: 1px solid white;
-    /* Borde de la tarjeta */
-    border-radius: 8px;
-    /* Bordes redondeados */
-    overflow: hidden;
-    /* Oculta el contenido que desborda */
-    margin: 20px;
-    /* Márgenes externos */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    /* Sombra de la tarjeta */
-    transition: transform 0.3s ease-in-out;
-    /* Transición al hacer hover */
-    background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
-    margin-left: 20%;
-    margin-top: 50px;
-    color: white;
-    width: 70%;
-   
-  }
-  .cardContact {
-    width: 90%;
-   background-color: black;
-    border-radius: 3px;
-    scroll-snap-align: center;
-    padding: 10px;
-    margin: 8px;
-    transition: all 450ms;
-    border: 1px solid rgb(108, 96, 102);
-    justify-self: center;
-    text-align: center;
-    font-size: 19px;
-  }
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  /* Dos columnas de igual tamaño, ajusta según sea necesario */
+  border: 1px solid white;
+  /* Borde de la tarjeta */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  overflow: hidden;
+  /* Oculta el contenido que desborda */
+  margin: 20px;
+  /* Márgenes externos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  /* Sombra de la tarjeta */
+  transition: transform 0.3s ease-in-out;
+  /* Transición al hacer hover */
+  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
+  margin-left: 20%;
+  margin-top: 50px;
+  color: white;
+  width: 70%;
+
+}
+
+.cardContact {
+  width: 90%;
+  background-color: black;
+  border-radius: 3px;
+  scroll-snap-align: center;
+  padding: 10px;
+  margin: 8px;
+  transition: all 450ms;
+  border: 1px solid rgb(108, 96, 102);
+  justify-self: center;
+  text-align: center;
+  font-size: 19px;
+}
+
 .imgMap {
   display: block;
   border: 1px solid rgb(108, 96, 102);
@@ -202,14 +211,16 @@
   width: 100%;
   height: 70%;
 }
+
 .containerBtn2 {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
-  
+
 }
+
 .btnBoton2 {
   max-width: 200px;
   min-width: 150px;
@@ -229,6 +240,7 @@
 .btnBoton2:hover {
   transform: scale(1.05);
 }
+
 .containerSkills {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -254,7 +266,7 @@
 }
 
 .card2 img {
-  
+
   width: 78%;
   height: 200px;
   margin-left: 35px;
@@ -276,16 +288,20 @@
   /* La etiqueta abarcará dos columnas */
   text-align: center;
 }
+
 .cardCertif {
   transition: transform 0.3s ease-in-out;
 }
+
 .cardCertif:hover {
-  transform: scale(1.05); /* Efecto de escala al hacer hover */
+  transform: scale(1.05);
+  /* Efecto de escala al hacer hover */
 }
+
 .containerCardPro {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  
+
   /* Borde de la tarjeta */
   border-radius: 8px;
   /* Bordes redondeados */
@@ -297,6 +313,7 @@
   place-items: center;
   margin-top: 40px;
 }
+
 .card6 {
   border: 1px solid white;
   /* Borde de la tarjeta */
@@ -317,12 +334,15 @@
   color: white;
   width: 450px;
   background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg");
- 
+
 }
+
 .card6:hover {
-  transform: scale(1.05); /* Efecto de escala al hacer hover */
+  transform: scale(1.05);
+  /* Efecto de escala al hacer hover */
 }
-.cardProject{
+
+.cardProject {
   width: 410px;
   background-color: black;
   border-radius: 3px;
@@ -332,18 +352,27 @@
   transition: all 450ms;
   border: 1px solid rgb(108, 96, 102);
   text-align: center;
-  
+
 }
+
 .cardProject img {
   width: 410px;
   height: 230px;
 }
+
 .arriba {
   width: 100px;
   color: white;
   padding: 10px;
- 
+
   font-size: 60px;
   text-align: center;
   margin-left: 750px;
+}
+
+@media (max-width: 600px) {
+
+  .btnBoton2{
+   font-size: 12px;
+  }
 }

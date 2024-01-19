@@ -48,4 +48,23 @@
     .containerMax{
         padding: 0px;
     }
+    .divisorVertical {
+        
+        padding: 2px;
+        padding-top: 10px;
+        height: 300px;
+        width: 48px;
+       margin-top: 20px;
+      margin-left: 50px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    
+    .divisorVertical {
+        padding: 1px;
+        height: 288px;
+        width: 48px;
+      margin-left: 60px;
+    }
   }
