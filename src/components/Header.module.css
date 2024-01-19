@@ -5,14 +5,20 @@
     justify-content: end;
     padding: 15px;
     cursor: pointer;
+    width: 100%;
 }
 @media (max-width: 768px) {
     .bgHeader {
       justify-content: center;
+      align-items: center;
     }
   }
   @media (max-width: 600px) {
     .bgHeader {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
       margin-right: 90px;
     }
   }

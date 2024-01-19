@@ -375,4 +375,17 @@
   .btnBoton2{
    font-size: 12px;
   }
+  
+  .btnBoton {
+   margin: auto;
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+}
+.card {
+  
+  margin: 0px;
+  width: 50%;
+
+}
 }
