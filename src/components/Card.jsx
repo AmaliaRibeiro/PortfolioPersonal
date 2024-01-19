@@ -13,7 +13,7 @@ const Card = () => {
                 </div>
 
                 <div className={bgCard.container2}>
-                    <h5 className="card-title">Amalia Ribeiro</h5>
+                    <h5 className={bgCard.cardTitle}>Amalia Ribeiro</h5>
                     <h4> Frontend Developer</h4>
                     <p className={bgCard.cardText}>
                         Soy autodidacta, obstinada en lograr mis objetivos, como desarrollarme y crecer en el mundo IT, soy paciente a

@@ -6,3 +6,8 @@
     padding: 15px;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .bgHeader {
+      justify-content: center;
+    }
+  }

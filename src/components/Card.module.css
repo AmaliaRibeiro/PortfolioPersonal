@@ -13,8 +13,6 @@
     width: 90%;
     
   }
-
-
   .container1 img{
     flex: 1;
     padding: 30px;
@@ -166,6 +164,30 @@
     width: 50%;
    }
   
+   @media (max-width: 768px) {
+    .contenedorHome {
+     margin-top: 0;
+     justify-content:flex-start;
+     padding: 25px;
+    }
+    .card {
+      display: block;
+      margin-left: 50px;
+      width: 80%;
+      background-image: none;
+      background-color: rgb(31, 31, 31);
+    }
+    .container2 {
+      width: auto;
+    }
+    .container1 img{
+      height: 490px;
+      
+    }
+    .cardTitle {
+      margin-top: 0px;
+    }
+  }
   
    
   
