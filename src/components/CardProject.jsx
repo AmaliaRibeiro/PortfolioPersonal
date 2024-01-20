@@ -11,7 +11,7 @@ export const CardProject = () => {
                 <div className={button.card6}>
                     <div className={button.cardProject}>
                         <h3> Ecommers Vitinícola </h3>
-                        <a href="/https://terra-rossa-page.vercel.app/" target="_blank">
+                        <a href="https://terra-rossa-page.vercel.app/" target="_blank">
                             <img src="./images/imgProjects/terraRossa.png"
                                 alt="Imagen proyecto Terra"
                                 style={{ cursor: 'pointer' }} />
@@ -31,7 +31,7 @@ export const CardProject = () => {
                 <div className={button.card6}>
                     <div className={button.cardProject}>
                         <h3> Cotizador de criptomonedas </h3>
-                        <a href="luminous-figolla-ea5dad.netlify.app" target="_blank">
+                        <a href="https://luminous-figolla-ea5dad.netlify.app/" target="_blank">
                             <img src="./images/imgProjects/cotizador.png"
                                 alt="Imagen cotizador"
                                 style={{ cursor: 'pointer' }} />
