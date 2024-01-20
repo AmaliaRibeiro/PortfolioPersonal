@@ -18,7 +18,6 @@ export const Skills = () => {
 
     return (
             <>
-
                 <div className={button.card} id="skills">
 
                     <div className={button.containerSkills} >
@@ -51,8 +50,6 @@ export const Skills = () => {
                         <h4>GITHUB</h4>
                         <FaGithub size="50px" className={button.skills} />
                     </div>
-
-
                 </div>
                 </>
             )

@@ -166,17 +166,20 @@
    }
   
    @media (max-width: 768px) {
+    .containerAbout {
+     align-items: center;
+    }
     .contenedorHome {
      margin-top: 0;
-     justify-content:flex-start;
+     justify-content: end;
      padding: 25px;
     }
     .card {
       display: block;
-      width: 80%;
       background-image: none;
       background-color: rgb(31, 31, 31);
       margin-left: 0;
+      margin-left: 40px;
     }
     .container2 {
       width: auto;
@@ -192,13 +195,11 @@
   
   @media (max-width: 600px) {
     .contenedorHome {
-      
      justify-content: center;
-
      }
      .card {
       width: 100%;
-      margin-left: 40px;
+     
     }
     .container1 img{
       height: 18%;
@@ -216,6 +217,9 @@
     }
     .card h4 {
       font-size: 17px; /* Tamaño de la fuente para el título */
+    }
+    .btnBoton a{
+      border-radius: none;
     }
     
   }

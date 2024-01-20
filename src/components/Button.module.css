@@ -370,23 +370,54 @@
   margin-left: 750px;
 }
 
-@media (max-width: 600px) {
-
-  .btnBoton2{
-   font-size: 12px;
+@media (max-width: 768px) {
+  .containerSkills {
+    grid-template-columns: repeat(4, 1fr);
   }
-  
+  .card {
+    margin-left: 0;
+  }
   .btnBoton {
-   margin: auto;
+    margin: auto;
     width: 100px;
     padding: 10px;
+    font-size: 14px;
+  }
+
+  .card3 {
+    margin: 0px;
+    width: 100%;
+    justify-self: center;
+  }
+  .card2 {
+    width: 100%;
+    margin: 0px;
+  }
+  .cardExperience {
+    width: 96%;
+  }
+  .arriba {
+    margin-left: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerBtn {
+    width: 100%;
+  }
+  .btnBoton2 {
     font-size: 12px;
-}
-.card {
-  
-  margin: 0px;
-  width: 50%;
+  }
+  .card {
+    margin: 0px;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .btnBoton {
+    border: none;
+    font-size: 15px;
+    background-color: grey;
+  }
+ 
+  }
 
-}
-
-}
