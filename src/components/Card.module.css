@@ -57,6 +57,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     width: 95%;
+    text-align: justify;
   }
 
   .containerBtn {
@@ -172,10 +173,10 @@
     }
     .card {
       display: block;
-      margin-left: 50px;
       width: 80%;
       background-image: none;
       background-color: rgb(31, 31, 31);
+      margin-left: 0;
     }
     .container2 {
       width: auto;
@@ -191,9 +192,8 @@
   
   @media (max-width: 600px) {
     .contenedorHome {
-      width: 100%;
-     padding: 18px;
-     justify-content: space-between;
+      
+     justify-content: center;
 
      }
      .card {
@@ -204,20 +204,19 @@
       width: 82%
     }
     .cardText {
-      font-size: 14px; /* Tamaño de la fuente para el texto */
+      font-size: 19px; /* Tamaño de la fuente para el texto */
       padding-top: 15px;
-      width: 280px;
+      width: auto;
     }
-    .container2 {
-      width: 200px;
-    }
+    
     .card h5 {
-      font-size: 22px; /* Tamaño de la fuente para el título */
+      font-size: 25px; /* Tamaño de la fuente para el título */
       
     }
     .card h4 {
-      font-size: 16px; /* Tamaño de la fuente para el título */
+      font-size: 17px; /* Tamaño de la fuente para el título */
     }
+    
   }
    
   

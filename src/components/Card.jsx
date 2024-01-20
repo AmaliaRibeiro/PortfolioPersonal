@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import React, { useState, useEffect } from 'react';
-import styled from "@emotion/styled";
+
 
 import bgCard from './Card.module.css'
 
@@ -26,7 +26,6 @@ const Card = () => {
                     <img src={isSmallScreen ? './images/yo2.png' : './images/AmmaCv.png'} alt="foto de perfil"/>
                 </div>
                
-
                 <div className={bgCard.container2}>
                     <h5 className={bgCard.cardTitle}>Amalia Ribeiro</h5>
                     <h4> Frontend Developer</h4>
