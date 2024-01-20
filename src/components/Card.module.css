@@ -191,15 +191,16 @@
   
   @media (max-width: 600px) {
     .contenedorHome {
-      width: 50%;
+      width: 100%;
      padding: 18px;
      justify-content: space-between;
+
      }
      .card {
       width: 100%;
     }
     .container1 img{
-      height: 450px;
+      height: 18%;
       width: 82%
     }
     .cardText {

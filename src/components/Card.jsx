@@ -1,16 +1,31 @@
 import { Link } from "react-router-dom"
+import React, { useState, useEffect } from 'react';
+import styled from "@emotion/styled";
 
 import bgCard from './Card.module.css'
 
 const Card = () => {
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
 
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 768);
+        };
+
+        // Agregar un event listener para el cambio de tamaño de la pantalla
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); // El segundo argumento [] asegura que el efecto se ejecute solo una vez al montar el componente
+    // Limpiar el event listener cuando el componente se desmonte
     return (
         <>
             <div className={bgCard.card}>
-
                 <div className={bgCard.container1}>
-                    <img src="./images/AmmaCv.png" alt="foto de perfil" />
+                    <img src={isSmallScreen ? './images/yo2.png' : './images/AmmaCv.png'} alt="foto de perfil"/>
                 </div>
+               
 
                 <div className={bgCard.container2}>
                     <h5 className={bgCard.cardTitle}>Amalia Ribeiro</h5>
