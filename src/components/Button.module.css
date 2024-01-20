@@ -394,7 +394,7 @@
     align-items: center;
   }
   .card2 {
-    width: 90%;
+    width: 100%;
     margin: 0px;
     height: 700px;
     margin: auto;
@@ -407,9 +407,10 @@
     margin-left: 40%;
   }
   .card4 {
-    width: 85%;
+    width: 80%;
     margin-left: 0;
     margin: auto;
+    grid-template-columns: 2fr 2fr;
   }
   .cardCertif {
    
@@ -433,10 +434,16 @@
   .cardContact {
     margin-left: 0
   }
-  
+  .skills {
+    width: 35px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 600px) {
+  .contenedorHome h2{
+margin-left: 0;
+  }
   .containerBtn {
     display: grid;
     grid-template-columns: repeat(3, fr);
@@ -474,6 +481,16 @@
  }
  .card4 {
 margin: auto;
+ }
+ .cardProject {
+  width: 300px;
+  margin: auto;
+ }
+ .cardProject img{
+  width: 300px;
+ }
+ .card6 {
+  width: 360px;
  }
   }
 
