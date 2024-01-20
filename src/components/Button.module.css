@@ -470,6 +470,11 @@ margin-left: 0;
   .certificadoTitle2 {
     font-size: 11px;
   }
+  .cardContact {
+  width: 90%;
+  font-size: 18px;
+  border: none;
+  }
   .card2 {
     height: 800px;
     grid-template-columns: 2fr 2fr;
@@ -492,5 +497,34 @@ margin: auto;
  .card6 {
   width: 360px;
  }
+ .card5 {
+  width: 100%;
+}
+  }
+  @media (max-width: 412px) {
+    .cardProject {
+      width: 280px;
+      margin: auto;
+      place-items: center;
+    
+     }
+     .cardProject img{
+      width: 280px;
+      margin: auto;
+     }
+     .card6 {
+      width: 330px;
+      margin: auto;
+      place-items: center;
+    }
+     
+     .containerCardPro {
+      margin: auto;
+      margin-left: 70px;
+     }
+     .cardCertif {
+      width: 160px;
+    }
+     
   }
 
