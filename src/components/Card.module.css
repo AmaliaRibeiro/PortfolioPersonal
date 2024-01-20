@@ -197,6 +197,7 @@
     .contenedorHome {
      justify-content: center;
      padding-left: 2px;
+     place-items: center;
      }
      .card {
       width: 100%;

@@ -394,12 +394,14 @@
     align-items: center;
   }
   .card2 {
-    width: 100%;
+    width: 90%;
     margin: 0px;
     height: 700px;
+    margin: auto;
   }
   .cardExperience {
     width: 85%;
+    margin: auto;
   }
   .arriba {
     margin-left: 40%;
@@ -407,17 +409,42 @@
   .card4 {
     width: 85%;
     margin-left: 0;
+    margin: auto;
   }
   .cardCertif {
-    height: 30px;
+   
     width: 180px;
+  }
+  .containerCardPro {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+  .card6 {
+    margin: auto;
+  }
+  .containerCardPro h2{
+    margin-left: 0;
+  }
+  .card5 {
+    display: block;
+    margin-left: 25%;
+  }
+  .cardContact {
+    margin-left: 0
   }
   
 }
 
 @media (max-width: 600px) {
   .containerBtn {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
     width: 90%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
   }
   .btnBoton2 {
     font-size: 12px;
@@ -431,16 +458,22 @@
     border: none;
     font-size: 13px;
     background-color: grey;
+    
   }
   .certificadoTitle2 {
     font-size: 11px;
   }
   .card2 {
-    height: 500px;
+    height: 800px;
+    grid-template-columns: 2fr 2fr;
+    place-items: center;
   }
  .card2 img {
   margin-left: 0;
   width: 100%;
+ }
+ .card4 {
+margin: auto;
  }
   }
 
