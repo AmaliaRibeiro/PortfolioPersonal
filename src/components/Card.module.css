@@ -196,6 +196,7 @@
   @media (max-width: 600px) {
     .contenedorHome {
      justify-content: center;
+     padding-left: 2px;
      }
      .card {
       width: 100%;
@@ -217,9 +218,6 @@
     }
     .card h4 {
       font-size: 17px; /* Tamaño de la fuente para el título */
-    }
-    .btnBoton a{
-      border-radius: none;
     }
     
   }

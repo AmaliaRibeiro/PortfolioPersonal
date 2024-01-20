@@ -55,7 +55,11 @@
         height: 300px;
         width: 48px;
        margin-top: 20px;
-      margin-left: 50px;
+      margin-left: 30px;
+    }
+    .card4 {
+      margin-left: 0;
+      
     }
   }
 
@@ -64,8 +68,8 @@
     .divisorVertical {
         padding: 1px;
         height: 288px;
-        width: 48px;
-      margin-left: 60px;
+        width: 44px;
+     
       
     }
   }

@@ -373,9 +373,12 @@
 @media (max-width: 768px) {
   .containerSkills {
     grid-template-columns: repeat(4, 1fr);
+    width: 70%;
   }
   .card {
     margin-left: 0;
+    justify-content: flex-start;
+    
   }
   .btnBoton {
     margin: auto;
@@ -388,36 +391,56 @@
     margin: 0px;
     width: 100%;
     justify-self: center;
+    align-items: center;
   }
   .card2 {
     width: 100%;
     margin: 0px;
+    height: 700px;
   }
   .cardExperience {
-    width: 96%;
+    width: 85%;
   }
   .arriba {
-    margin-left: 50%;
+    margin-left: 40%;
   }
+  .card4 {
+    width: 85%;
+    margin-left: 0;
+  }
+  .cardCertif {
+    height: 30px;
+    width: 180px;
+  }
+  
 }
 
 @media (max-width: 600px) {
   .containerBtn {
-    width: 100%;
+    width: 90%;
   }
   .btnBoton2 {
     font-size: 12px;
   }
   .card {
     margin: 0px;
-    width: 100%;
-    margin-left: 50px;
+    width: 81%;
+    margin-left: 100px;
   }
   .btnBoton {
     border: none;
-    font-size: 15px;
+    font-size: 13px;
     background-color: grey;
   }
- 
+  .certificadoTitle2 {
+    font-size: 11px;
+  }
+  .card2 {
+    height: 500px;
+  }
+ .card2 img {
+  margin-left: 0;
+  width: 100%;
+ }
   }
 
