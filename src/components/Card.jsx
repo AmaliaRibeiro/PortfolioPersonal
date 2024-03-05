@@ -34,7 +34,7 @@ const Card = () => {
                         la hora de resolver problemas que requieran presiones de tiempo, tengo un buen desarrollo en relaciones interpersonales.
                         Mi deseo es tener la oportunidad de poder desenvolverme, aprender, seguir adquiriendo experiencia en frontend que es donde
                         encontré mi lugar, donde sé que puedo brindar lo mejor de mí, de igual manera tengo conocimientos en backend
-                        con los lenguajes de Java y JavaScript y también trabajé con bases de datos relacionales como MySql y MongoDB
+                        con los lenguajes de Java y JavaScript y también trabajé con bases de datos relacionales como MySql y base de datos no relacionales como MongoDB.
                     </p>
                     <div className="containerBtn">
                         <button className={bgCard.btnBoton}><Link to="/projects">Proyectos</Link></button>

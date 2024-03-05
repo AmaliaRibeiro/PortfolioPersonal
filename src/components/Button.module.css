@@ -525,6 +525,8 @@ margin: auto;
      .cardCertif {
       width: 160px;
     }
-     
+    .btnBoton {
+      width: 30px;
+    }
   }
 
