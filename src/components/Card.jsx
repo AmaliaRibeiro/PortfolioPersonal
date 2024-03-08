@@ -37,8 +37,12 @@ const Card = () => {
                         con los lenguajes de Java y JavaScript y también trabajé con bases de datos relacionales como MySql y base de datos no relacionales como MongoDB.
                     </p>
                     <div className="containerBtn">
-                        <button className={bgCard.btnBoton}><Link to="/projects">Proyectos</Link></button>
-                        <button className={bgCard.btnBoton2}><Link className="btnBoton" to="/contact">Contacto</Link></button>
+                        {/* ... <button className={bgCard.btnBoton}><Link to="/projects">Proyectos</Link></button>
+                        <button className={bgCard.btnBoton2}><Link className="btnBoton" to="/contact">Contacto</Link></button> version 1*/}
+                        <Link className={bgCard.btnBoton}to="/projects">Proyectos</Link>
+                        <Link className={bgCard.btnBoton}to="/contact">Contacto</Link>
+                        <a className={bgCard.btnBoton} href="/AmaliaZulemaRibeiroCV.pdf" download="AmaliaZulemaRibeiroCV.pdf">DESCARGAR CV</a>
+                        
                     </div>
                 </div>
 

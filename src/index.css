@@ -1,5 +1,6 @@
 body {
-    background-image: url("../images/curling-dust-powder-motion-r6WREsu7.jpg");
+    /*background-image: url("../images/curling-dust-powder-motion-r6WREsu7.jpg"); version1*/
+    background-color: white;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }

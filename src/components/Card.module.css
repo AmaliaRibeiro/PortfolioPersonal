@@ -4,11 +4,12 @@
     border-radius: 8px; /* Bordes redondeados */
     overflow: hidden; /* Oculta el contenido que desborda */
     margin: 20px; /* Márgenes externos */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra de la tarjeta */
     transition: transform 0.3s ease-in-out; /* Transición al hacer hover */
     justify-content: center;
     align-items: center;
-    background-image: url("./images/abstract-optical-laser-wallpaper.jpg");
+    /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version1*/
+    background-image: url("./images/bgBody-2-d.jpg");
     margin-left: 100px;
     width: 90%;
     
@@ -66,53 +67,36 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
-.btnBoton a {
-    width:100%;
-    height:80px;
-    position:relative;
-    background: transparent;
-    text-transform:uppercase;
-    color: #EE82EE;
-    font-weight:700;
-    letter-spacing:1px;
-    border:none;
-    font-size:17px;
-    outline:none;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    cursor: pointer;
 
-    text-decoration: none;
-    padding: 10px;
-  }
-
-  .btnBoton2 a {
-    width:100%;
-    height:80px;
-    position:relative;
-    background: transparent;
-    text-transform:uppercase;
-    color: #EE82EE;
-    font-weight:700;
-    letter-spacing:1px;
-    border:none;
-    font-size:17px;
-    outline:none;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 10px;
-  }
   .btnBoton {
-    margin: 0 20px 40px;
-    position:relative;
+    /*position:relative;
     max-width: 200px;
     min-width: 150px;
     flex: 20%;
-    background: transparent;
+    width: 150px; 
+    width:100%;
+    height:80px;
+    position:relative;
+    outline:none;
+    border:none;
     border-radius: 1px solid white;
-    width: 150px;
-    padding: 15px;
+    background: transparent;
+    color: #EE82EE;vs 1*/
+    margin: 0 20px 40px;
     transition: all .18s ease-in-out;
+    border-block-color: inherit; /*es de la version 2*/
+    background:rgba(235, 234, 235, 0.782);
+    text-transform:uppercase;
+    color: white;
+    font-weight:700;
+    letter-spacing:1px;
+    /*version 2*/border-radius: 8px;
+    /*version 2*/border: 1px solid grey;
+    font-size:17px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
   }
    :hover .btnBoton {
     text-shadow:
@@ -126,35 +110,13 @@
     0 0 80px rgba(255, 255, 255, .2),
     0 0 120px rgba(255, 255, 255, .1);
    }
-  .btnBoton2 {
-    margin: 0 20px 40px;
-    position:relative;
-    max-width: 200px;
-    min-width: 150px;
-    flex: 20%;
-    background: transparent;
-    border-radius: 1px solid white;
-    width: 150px;
-    padding: 15px;
-    transition:all .5s ease-in-out;
-  }
-  :hover .btnBoton2 {
-    text-shadow:
-    0 0 30px rgba(255, 192, 203, 1),
-    0 0 60px rgba(255, 192, 203, .8),
-    0 0 75px rgba(255, 192, 203, .6),
-    0 0 80px rgba(255, 192, 203, .4),
-    0 0 77px rgba(255, 192, 203, .5),
-    0 0 78px rgba(255, 192, 203, .4),
-    0 0 79px rgba(255, 192, 203, .3),
-    0 0 80px rgba(255, 192, 203, .2),
-    0 0 120px rgba(255, 192, 203, .1);
-   }
+ 
+  
    .contenedorHome {
     display: flex; /* Utilizar flexbox para alinear los elementos en línea */
     justify-content: space-between; /* Espaciar los elementos horizontalmente */
     padding: 20px; /* Agregar relleno al contenedor según sea necesario */
-  margin-top: 10px;
+    /*margin-top: 10px; version1*/
    
    }
    .contenedorHome .Navbar {

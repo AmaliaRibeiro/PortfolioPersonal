@@ -1,11 +1,12 @@
 
 .bgHeader {
     display: flex;
-    background-image: url("../../images/pink-dust-particles-splash-against-black-background.jpg");
-    justify-content: end;
+    /*background-image: url("../../images/pink-dust-particles-splash-against-black-background.jpg"); version1*/
+    /*justify-content: end; version1*/
+    justify-content: center;
     padding: 15px;
     cursor: pointer;
-    width: 100%;
+    /*width: 100%; version1*/
 }
 @media (max-width: 768px) {
     .bgHeader {

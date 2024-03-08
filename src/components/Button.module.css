@@ -5,6 +5,9 @@
   flex-wrap: wrap;
   padding: 20px;
   margin-top: 20px;
+  li {
+    list-style: none; /* Eliminar marcadores de lista para toda la lista VERSION2*/
+  }
 }
 
 .btnBoton {
@@ -13,16 +16,19 @@
   flex: 20%;
   background: transparent;
   border-radius: 8px;
-  border: 1px solid white;
+  /*border: 1px solid white; version1*/
+  border: 1px solid grey;
   width: 150px;
   padding: 15px;
   transition: all .18s ease-in-out;
   text-decoration: none;
-  color: white;
+  /*color: white; version1*/
+  color: grey;
   cursor: pointer;
   text-align: center;
   font-size: 18px;
-  font-weight: 600
+  font-weight: 600;
+  
 }
 
 .btnBoton:hover {
@@ -47,13 +53,14 @@
   /* Oculta el contenido que desborda */
   margin: 20px;
   /* Márgenes externos */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
   justify-content: center;
   align-items: center;
-  background-image: url("./images/abstract-optical-laser-wallpaper.jpg");
+  /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version 1*/
+  background-image: url("./images/bgBody-2-g.jpg");
   margin-left: 57%;
   margin-top: 50px;
   color: white;
@@ -74,16 +81,17 @@
   /* Oculta el contenido que desborda */
   margin: 20px;
   /* Márgenes externos */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
-  background-image: url("./images/abstract-optical-laser-wallpaper.jpg");
+  /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version 1*/
+  background-image: url("./images/bgBody-2-g.jpg");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
   width: 60%;
-  height: 590px;
+  height: 620px;
 }
 
 .card3 {
@@ -95,7 +103,7 @@
   /* Oculta el contenido que desborda */
   margin: 20px;
   /* Márgenes externos */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
@@ -110,7 +118,8 @@
 
 .cardExperience {
   width: 810px;
-  background-color: black;
+  /*background-color: black;version 1*/ 
+  background-image: url("./images/bgBody-2-g.jpg");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -131,7 +140,7 @@
   /* Oculta el contenido que desborda */
   margin: 20px;
   /* Márgenes externos */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
@@ -145,7 +154,8 @@
 }
 
 .cardInterest {
-  background-color: black;
+ /*background-color: black;version 1*/ 
+ background-image: url("./images/bgBody-2-g.jpg");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;

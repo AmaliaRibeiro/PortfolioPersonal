@@ -7,7 +7,7 @@ import { Outlet } from "react-router-dom"
 import bgHeader from './Header.module.css'
 
 
-const iconsStyles = { color: 'white', fontSize: '40px', padding: '10px' }
+const iconsStyles = { color: 'grey', fontSize: '40px', padding: '10px',  boxShadow: '0 2px 0px rgba(0, 0, 0, 0.1)' /* Sombra de la tarjeta */ }
 
 const Header = () => {
 

@@ -15,7 +15,7 @@ import { Container } from "react-bootstrap";
 const iconsStyles = { color: 'white', fontSize: '30px', padding: '20px 10px 10px', paddingTop: '20px', paddingBottom: '20px' }
 
 const Navbar = () => {
-
+    
     return (
         <> 
         
@@ -23,7 +23,12 @@ const Navbar = () => {
         
            <Row className={bgNavbar.divisorVertical} >
           
-             <Col><Link className={bgNavbar.a} to= "/"><FaHome style={iconsStyles}/></Link></Col>
+             <Col>
+             <Link 
+                  className={bgNavbar.a} 
+                  to= "/">
+                  <FaHome style={iconsStyles} /></Link>
+             </Col>
              <Col><Link className={bgNavbar.a} to= "/about-me"> <MdPersonPin style={iconsStyles}/></Link></Col>
              <Col><Link className={bgNavbar.a} to= "/projects"> <TfiBag style={iconsStyles}/></Link></Col>
              <Col><Link className={bgNavbar.a} to= "/contact"> <MdContactMail style={iconsStyles}/> </Link></Col>

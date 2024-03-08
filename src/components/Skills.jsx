@@ -11,6 +11,7 @@ import { SiPostman } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiSequelize } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { DiScrum } from "react-icons/di";
 
 import button from './Button.module.css'
 
@@ -22,7 +23,7 @@ export const Skills = () => {
 
                     <div className={button.containerSkills} >
                         <h4>SCRUM</h4>
-                        <img className={button.skills} src="./images/imgSkills/agileScrum.png" alt="agile Scrum" />
+                        <DiScrum size="50px"className={button.skills} />
                         <h4>BOOTSTRAP</h4>
                         <FaBootstrap size="50px" className={button.skills} />
                         <h4>CSS</h4>
