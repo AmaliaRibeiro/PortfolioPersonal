@@ -46,7 +46,7 @@ export const AboutMe = () => {
                 </Container>
 
                 <div className={button.contenido} id="certificados">
-                    <h3 className={button.title}>CERTIFICADOS</h3>
+                    <h3 className={button.btnTitle}>CERTIFICADOS</h3>
 
                     <div className={button.card2}>
                         <div className={button.cardCertif}>
@@ -81,7 +81,7 @@ export const AboutMe = () => {
 
 
                 <div className={button.contenido} id="experiencia">
-                    <h3 className={button.title}>EXPERIENCIA</h3>
+                    <h3 className={button.btnTitle}>EXPERIENCIA</h3>
                     <div className={button.card3}>
                         <div className={button.cardExperience}>
                             <h4 className={button.title3}>Full-Stack Developer (Ecommers vitinícola)</h4>
@@ -114,7 +114,7 @@ export const AboutMe = () => {
                 </div>
 
                 <div className={button.contenido} id="intereses">
-                    <h3 className={button.title}>INTERESES</h3>
+                    <h3 className={button.btnTitle}>INTERESES</h3>
                     <div className={button.card4}>
                         <div className={button.cardInterest}>
                             <p>Escuchar música</p>

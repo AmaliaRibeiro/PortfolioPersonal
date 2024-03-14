@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom"
 
 import Row from 'react-bootstrap/Row';
@@ -15,30 +15,44 @@ import { Container } from "react-bootstrap";
 const iconsStyles = { color: 'white', fontSize: '30px', padding: '20px 10px 10px', paddingTop: '20px', paddingBottom: '20px' }
 
 const Navbar = () => {
-    
-    return (
-        <> 
-        
-        <Container className={bgNavbar.containerMax}>
-        
-           <Row className={bgNavbar.divisorVertical} >
+  
+  
+  return (
+    <>
+      <Container className={bgNavbar.containerMax}>
+        <Row className={bgNavbar.divisorVertical} >
           
-             <Col>
-             <Link 
-                  className={bgNavbar.a} 
-                  to= "/">
-                  <FaHome style={iconsStyles} /></Link>
-             </Col>
-             <Col><Link className={bgNavbar.a} to= "/about-me"> <MdPersonPin style={iconsStyles}/></Link></Col>
-             <Col><Link className={bgNavbar.a} to= "/projects"> <TfiBag style={iconsStyles}/></Link></Col>
-             <Col><Link className={bgNavbar.a} to= "/contact"> <MdContactMail style={iconsStyles}/> </Link></Col>
+            <Link className={bgNavbar.a} to="/">
            
-          </Row>
-         
+        
+                <FaHome title="HOME"style={iconsStyles} />
+              
+            </Link>
 
-          </Container>
-        </>
-    )
+          <Link className={bgNavbar.a} to="/about-me">
+            
+              <MdPersonPin title="SOBRE MÍ" style={iconsStyles} />
+            
+          </Link>
+          
+          <Link className={bgNavbar.a} to="/projects">
+           
+              <TfiBag title="PROYECTOS" style={iconsStyles} />
+           
+          </Link>
+          
+          <Link className={bgNavbar.a} to="/contact">
+       
+          
+              <MdContactMail title="CONTACTO" style={iconsStyles} />
+         
+          </Link>
+          
+
+        </Row>
+      </Container>
+    </>
+  )
 }
 
 export default Navbar

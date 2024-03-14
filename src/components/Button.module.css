@@ -12,27 +12,50 @@
 
 .btnBoton {
   margin: 0 20px 40px;
-  position: relative;
-  flex: 20%;
-  background: transparent;
-  border-radius: 8px;
-  /*border: 1px solid white; version1*/
-  border: 1px solid grey;
-  width: 150px;
-  padding: 15px;
   transition: all .18s ease-in-out;
-  text-decoration: none;
-  /*color: white; version1*/
+  border-block-color: inherit; /*es de la version 2*/
+  background:rgba(235, 234, 235, 0.782);
+  text-transform:uppercase;
   color: grey;
+  font-weight:700;
+  letter-spacing:1px;
+  /*version 2*/border-radius: 8px;
+  /*version 2*/border: 1px solid grey;
+  font-size:17px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
   text-align: center;
-  font-size: 18px;
-  font-weight: 600;
   
 }
+.btnTitle {
+  margin: 0 20px 40px;
+  text-transform:uppercase;
+  color: grey;
+  font-weight:700;
+  letter-spacing:1px;
+  font-size:17px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding: 10px;
+  text-align: center;
+  width: 10%;
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 45%;
+}
 
-.btnBoton:hover {
+:hover .btnBoton {
   transform: scale(1.05);
+  text-shadow:
+  0 0 30px rgba(255,255,255, 1),
+  0 0 60px rgba(255, 255, 255, .8),
+  0 0 75px rgba(255, 255, 255, .6),
+  0 0 80px rgba(255, 255, 255, .4),
+  0 0 77px rgba(255, 255, 255, .5),
+  0 0 78px rgba(255, 255, 255, .4),
+  0 0 79px rgba(255, 255, 255, .3),
+  0 0 80px rgba(255, 255, 255, .2),
+  0 0 120px rgba(255, 255, 255, .1);
 }
 
 .activo {
@@ -60,7 +83,7 @@
   justify-content: center;
   align-items: center;
   /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version 1*/
-  background-image: url("./images/bgBody-2-g.jpg");
+  background-image: url("./images/bgBody-2-i.jpg");
   margin-left: 57%;
   margin-top: 50px;
   color: white;
@@ -86,7 +109,7 @@
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
   /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version 1*/
-  background-image: url("./images/bgBody-2-g.jpg");
+  background-image: url("./images/bgBody-2-i.jpg");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
@@ -119,7 +142,7 @@
 .cardExperience {
   width: 810px;
   /*background-color: black;version 1*/ 
-  background-image: url("./images/bgBody-2-g.jpg");
+  background-image: url("./images/bgBody-2-i.jpg");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -155,7 +178,7 @@
 
 .cardInterest {
  /*background-color: black;version 1*/ 
- background-image: url("./images/bgBody-2-g.jpg");
+ background-image: url("./images/bgBody-2-i.jpg");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -171,6 +194,7 @@
 
 .title3 {
   width: 100%;
+  text-align: center;
 }
 
 .card5 {
@@ -189,7 +213,7 @@
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
-  background-image: url("../images/abstract-optical-laser-wallpaper.jpg");
+  background-image: url("./images/bgBody-2-l.jpg");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
@@ -199,7 +223,7 @@
 
 .cardContact {
   width: 90%;
-  background-color: black;
+  background-image: url("./images/bgBody-2-i.jpg");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -273,6 +297,7 @@
   text-align: center;
   margin-top: 6%;
   font-size: 20px;
+  color: black
 }
 
 .card2 img {
@@ -343,7 +368,7 @@
   margin-bottom: 10px;
   color: white;
   width: 450px;
-  background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg");
+  background-image: url("./images/bgBody-2-l.jpg");
 
 }
 
@@ -372,7 +397,7 @@
 
 .arriba {
   width: 100px;
-  color: white;
+  color: grey;
   padding: 10px;
 
   font-size: 60px;
