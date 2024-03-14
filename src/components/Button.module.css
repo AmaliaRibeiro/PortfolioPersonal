@@ -82,8 +82,8 @@
   /* Transición al hacer hover */
   justify-content: center;
   align-items: center;
-  /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version 1*/
-  background-image: url("./images/bgBody-i.jpg");
+  /*background-image: url("./images/abstract-optical-laser-wallpaper.png"); version 1*/
+  background-image: url("./images/bgBody-i.png");
   margin-left: 57%;
   margin-top: 50px;
   color: white;
@@ -108,8 +108,8 @@
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
-  /*background-image: url("./images/abstract-optical-laser-wallpaper.jpg"); version 1*/
-  background-image: url("./images/bgBody-i.jpg");
+  /*background-image: url("./images/abstract-optical-laser-wallpaper.png"); version 1*/
+  background-image: url("./images/bgBody-i.png");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
@@ -136,13 +136,13 @@
   margin-top: 50px;
   color: white;
   width: 850px;
-  /*background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.jpg");*/
+  /*background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.png");*/
 }
 
 .cardExperience {
   width: 810px;
   /*background-color: black;version 1*/ 
-  background-image: url("./images/bgBody-i.jpg");
+  background-image: url("./images/bgBody-i.png");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -169,7 +169,7 @@
   /* Transición al hacer hover */
   justify-content: center;
   align-items: center;
-  /*background-image: url("../images/abstract-optical-laser-wallpaper.jpg");*/
+  /*background-image: url("../images/abstract-optical-laser-wallpaper.png");*/
   margin-left: 20%;
   margin-top: 50px;
   color: white;
@@ -178,7 +178,7 @@
 
 .cardInterest {
  /*background-color: black;version 1*/ 
- background-image: url("./images/bgBody-i.jpg");
+ background-image: url("./images/bgBody-i.png");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -213,7 +213,7 @@
   /* Sombra de la tarjeta */
   transition: transform 0.3s ease-in-out;
   /* Transición al hacer hover */
-  background-image: url("./images/bgBody-l.jpg");
+  background-image: url("./images/bgBody-l.png");
   margin-left: 20%;
   margin-top: 50px;
   color: white;
@@ -223,7 +223,7 @@
 
 .cardContact {
   width: 90%;
-  background-image: url("./images/bgBody-i.jpg");
+  background-image: url("./images/bgBody-i.png");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -368,7 +368,7 @@
   margin-bottom: 10px;
   color: white;
   width: 450px;
-  background-image: url("./images/bgBody-l.jpg");
+  background-image: url("./images/bgBody-l.png");
 
 }
 
