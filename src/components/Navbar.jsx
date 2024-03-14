@@ -23,32 +23,20 @@ const Navbar = () => {
         <Row className={bgNavbar.divisorVertical} >
           
             <Link className={bgNavbar.a} to="/">
-           
-        
                 <FaHome title="HOME"style={iconsStyles} />
-              
             </Link>
 
           <Link className={bgNavbar.a} to="/about-me">
-            
               <MdPersonPin title="SOBRE MÍ" style={iconsStyles} />
-            
           </Link>
           
           <Link className={bgNavbar.a} to="/projects">
-           
               <TfiBag title="PROYECTOS" style={iconsStyles} />
-           
           </Link>
           
           <Link className={bgNavbar.a} to="/contact">
-       
-          
               <MdContactMail title="CONTACTO" style={iconsStyles} />
-         
           </Link>
-          
-
         </Row>
       </Container>
     </>
