@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom"
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'
 
 import bgNavbar from './Navbar.module.css'
 
@@ -12,7 +11,6 @@ import { TfiBag } from "react-icons/tfi";
 import { MdContactMail } from "react-icons/md";
 import { Container } from "react-bootstrap";
 
-const iconsStyles = { color: 'white', fontSize: '30px', padding: '20px 10px 10px', paddingTop: '20px', paddingBottom: '20px' }
 
 const Navbar = () => {
   
@@ -23,19 +21,19 @@ const Navbar = () => {
         <Row className={bgNavbar.divisorVertical} >
           
             <Link className={bgNavbar.a} to="/">
-                <FaHome title="HOME"style={iconsStyles} />
+                <FaHome title="HOME" className={bgNavbar.iconsStyles} />
             </Link>
 
           <Link className={bgNavbar.a} to="/about-me">
-              <MdPersonPin title="SOBRE MÍ" style={iconsStyles} />
+              <MdPersonPin title="SOBRE MÍ" className={bgNavbar.iconsStyles} />
           </Link>
           
           <Link className={bgNavbar.a} to="/projects">
-              <TfiBag title="PROYECTOS" style={iconsStyles} />
+              <TfiBag title="PROYECTOS" className={bgNavbar.iconsStyles} />
           </Link>
           
           <Link className={bgNavbar.a} to="/contact">
-              <MdContactMail title="CONTACTO" style={iconsStyles} />
+              <MdContactMail title="CONTACTO" className={bgNavbar.iconsStyles} />
           </Link>
         </Row>
       </Container>
