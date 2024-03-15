@@ -36,7 +36,7 @@ const Card = () => {
                         encontré mi lugar, donde sé que puedo brindar lo mejor de mí, de igual manera tengo conocimientos en backend
                         con los lenguajes de Java y JavaScript y también trabajé con bases de datos relacionales como MySql y base de datos no relacionales como MongoDB.
                     </p>
-                    <div className="containerBtn">
+                    <div className={bgCard.containerBtn}>
                         {/* ... <button className={bgCard.btnBoton}><Link to="/projects">Proyectos</Link></button>
                         <button className={bgCard.btnBoton2}><Link className="btnBoton" to="/contact">Contacto</Link></button> version 1*/}
                         <Link className={bgCard.btnBoton}to="/projects">Proyectos</Link>

@@ -5,37 +5,43 @@
   flex-wrap: wrap;
   padding: 20px;
   margin-top: 20px;
+
   li {
-    list-style: none; /* Eliminar marcadores de lista para toda la lista VERSION2*/
+    list-style: none;
+    /* Eliminar marcadores de lista para toda la lista VERSION2*/
   }
 }
 
 .btnBoton {
   margin: 0 20px 40px;
   transition: all .18s ease-in-out;
-  border-block-color: inherit; /*es de la version 2*/
-  background:rgba(235, 234, 235, 0.782);
-  text-transform:uppercase;
+  border-block-color: inherit;
+  /*es de la version 2*/
+  background: rgba(235, 234, 235, 0.782);
+  text-transform: uppercase;
   color: grey;
-  font-weight:700;
-  letter-spacing:1px;
-  /*version 2*/border-radius: 8px;
-  /*version 2*/border: 1px solid grey;
-  font-size:17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  /*version 2*/
+  border-radius: 8px;
+  /*version 2*/
+  border: 1px solid grey;
+  font-size: 17px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   cursor: pointer;
   text-decoration: none;
   padding: 10px;
   text-align: center;
-  
+
 }
+
 .btnTitle {
   margin: 0 20px 40px;
-  text-transform:uppercase;
+  text-transform: uppercase;
   color: grey;
-  font-weight:700;
-  letter-spacing:1px;
-  font-size:17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 17px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   padding: 10px;
   text-align: center;
@@ -47,15 +53,15 @@
 :hover .btnBoton {
   transform: scale(1.05);
   text-shadow:
-  0 0 30px rgba(255,255,255, 1),
-  0 0 60px rgba(255, 255, 255, .8),
-  0 0 75px rgba(255, 255, 255, .6),
-  0 0 80px rgba(255, 255, 255, .4),
-  0 0 77px rgba(255, 255, 255, .5),
-  0 0 78px rgba(255, 255, 255, .4),
-  0 0 79px rgba(255, 255, 255, .3),
-  0 0 80px rgba(255, 255, 255, .2),
-  0 0 120px rgba(255, 255, 255, .1);
+    0 0 30px rgba(255, 255, 255, 1),
+    0 0 60px rgba(255, 255, 255, .8),
+    0 0 75px rgba(255, 255, 255, .6),
+    0 0 80px rgba(255, 255, 255, .4),
+    0 0 77px rgba(255, 255, 255, .5),
+    0 0 78px rgba(255, 255, 255, .4),
+    0 0 79px rgba(255, 255, 255, .3),
+    0 0 80px rgba(255, 255, 255, .2),
+    0 0 120px rgba(255, 255, 255, .1);
 }
 
 .activo {
@@ -141,7 +147,7 @@
 
 .cardExperience {
   width: 810px;
-  /*background-color: black;version 1*/ 
+  /*background-color: black;version 1*/
   background-image: url("../images/bgBody-i.png");
   border-radius: 3px;
   scroll-snap-align: center;
@@ -177,8 +183,8 @@
 }
 
 .cardInterest {
- /*background-color: black;version 1*/ 
- background-image: url("../images/bgBody-i.png");
+  /*background-color: black;version 1*/
+  background-image: url("../images/bgBody-i.png");
   border-radius: 3px;
   scroll-snap-align: center;
   padding: 10px;
@@ -410,11 +416,13 @@
     grid-template-columns: repeat(4, 1fr);
     width: 70%;
   }
+
   .card {
     margin-left: 0;
     justify-content: flex-start;
-    
+
   }
+
   .btnBoton {
     margin: auto;
     width: 100px;
@@ -428,47 +436,58 @@
     justify-self: center;
     align-items: center;
   }
+
   .card2 {
     width: 100%;
     margin: 0px;
     height: 700px;
     margin: auto;
   }
+
   .cardExperience {
     width: 85%;
     margin: auto;
   }
+
   .arriba {
     margin-left: 40%;
   }
+
   .card4 {
     width: 80%;
     margin-left: 0;
     margin: auto;
     grid-template-columns: 2fr 2fr;
   }
+
   .cardCertif {
-   
+
     width: 180px;
   }
+
   .containerCardPro {
     display: block;
     margin-left: 0;
     width: 100%;
   }
+
   .card6 {
     margin: auto;
   }
-  .containerCardPro h2{
+
+  .containerCardPro h2 {
     margin-left: 0;
   }
+
   .card5 {
     display: block;
     margin-left: 25%;
   }
+
   .cardContact {
     margin-left: 0
   }
+
   .skills {
     width: 35px;
     height: 30px;
@@ -476,9 +495,10 @@
 }
 
 @media (max-width: 600px) {
-  .contenedorHome h2{
-margin-left: 0;
+  .contenedorHome h2 {
+    margin-left: 0;
   }
+
   .containerBtn {
     display: grid;
     grid-template-columns: repeat(3, fr);
@@ -488,80 +508,96 @@ margin-left: 0;
     align-items: center;
     text-align: center;
   }
+
   .btnBoton2 {
     font-size: 12px;
   }
+
   .card {
     margin: 0px;
     width: 81%;
     margin-left: 100px;
   }
+
   .btnBoton {
     border: none;
     font-size: 13px;
     background-color: grey;
-    
+
   }
+
   .certificadoTitle2 {
     font-size: 11px;
   }
+
   .cardContact {
-  width: 90%;
-  font-size: 18px;
-  border: none;
+    width: 90%;
+    font-size: 18px;
+    border: none;
   }
+
   .card2 {
     height: 800px;
     grid-template-columns: 2fr 2fr;
     place-items: center;
   }
- .card2 img {
-  margin-left: 0;
-  width: 100%;
- }
- .card4 {
-margin: auto;
- }
- .cardProject {
-  width: 300px;
-  margin: auto;
- }
- .cardProject img{
-  width: 300px;
- }
- .card6 {
-  width: 360px;
- }
- .card5 {
-  width: 100%;
-}
-  }
-  @media (max-width: 412px) {
-    .cardProject {
-      width: 280px;
-      margin: auto;
-      place-items: center;
-    
-     }
-     .cardProject img{
-      width: 280px;
-      margin: auto;
-     }
-     .card6 {
-      width: 330px;
-      margin: auto;
-      place-items: center;
-    }
-     
-     .containerCardPro {
-      margin: auto;
-      margin-left: 70px;
-     }
-     .cardCertif {
-      width: 160px;
-    }
-    .btnBoton {
-      width: 30px;
-    }
+
+  .card2 img {
+    margin-left: 0;
+    width: 100%;
   }
 
+  .card4 {
+    margin: auto;
+  }
+
+  .cardProject {
+    width: 300px;
+    margin: auto;
+  }
+
+  .cardProject img {
+    width: 300px;
+  }
+
+  .card6 {
+    width: 360px;
+  }
+
+  .card5 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 412px) {
+  .cardProject {
+    width: 280px;
+    margin: auto;
+    place-items: center;
+
+  }
+
+  .cardProject img {
+    width: 280px;
+    margin: auto;
+  }
+
+  .card6 {
+    width: 330px;
+    margin: auto;
+    place-items: center;
+  }
+
+  .containerCardPro {
+    margin: auto;
+    margin-left: 70px;
+  }
+
+  .cardCertif {
+    width: 160px;
+  }
+
+  .btnBoton {
+    width: 30px;
+  }
+}

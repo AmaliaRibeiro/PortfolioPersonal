@@ -138,9 +138,7 @@
     }
     .card {
       display: block;
-      background-image: none;
-      background-color: rgb(31, 31, 31);
-      margin-left: 0;
+      background-image: url("../images/bgBody-i.png");
       margin-left: 40px;
     }
     .container2 {
@@ -162,12 +160,12 @@
      place-items: center;
      }
      .card {
-      width: 100%;
-     
+      width: 80%;
+      margin-left: 80px;
     }
     .container1 img{
       height: 18%;
-      width: 82%
+      width: 70%
     }
     .cardText {
       font-size: 19px; /* Tamaño de la fuente para el texto */
@@ -177,12 +175,42 @@
     
     .card h5 {
       font-size: 25px; /* Tamaño de la fuente para el título */
-      
+      text-align: center;
     }
-    .card h4 {
-      font-size: 17px; /* Tamaño de la fuente para el título */
+    .container2 h4 {
+      text-align: center;
     }
-    
+    .btnBoton {
+      width: 30%;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 412px) {
+    .contenedorHome {
+     justify-content: center;
+     padding-left: 2px;
+     place-items: center;
+     }
+     .card {
+      width: 80%;
+    }
+    .container1 img{
+      height: 20%;
+      width: 80%
+    }
+    .cardText {
+      font-size: 15px; /* Tamaño de la fuente para el texto */ 
+    }
+    .card h5 {
+      font-size: 22px; /* Tamaño de la fuente para el título */
+      text-align: center;
+    }
+    .btnBoton {
+      width: 44%;
+      font-size: 14px;
+      text-align: center;
+    }
   }
    
   
