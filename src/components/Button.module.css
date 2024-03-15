@@ -520,9 +520,9 @@
   }
 
   .btnBoton {
-    border: none;
+    
     font-size: 13px;
-    background-color: grey;
+    background-color: white;
 
   }
 
@@ -599,5 +599,15 @@
 
   .btnBoton {
     width: 30px;
+  }
+  .card {
+    margin: 0px;
+    width: 81%;
+    margin-left: 100px;
+    place-items: center;
+  }
+  .btnTitle {
+    margin-left: 130px;
+    
   }
 }
