@@ -41,7 +41,7 @@ const Card = () => {
                         <button className={bgCard.btnBoton2}><Link className="btnBoton" to="/contact">Contacto</Link></button> version 1*/}
                         <Link className={bgCard.btnBoton}to="/projects">Proyectos</Link>
                         <Link className={bgCard.btnBoton}to="/contact">Contacto</Link>
-                        <a className={bgCard.btnBoton} href="/Amalia-Ribeiro-dev-front-02-2024-CV.pdf" download="AmaliaZulemaRibeiroCV.pdf">DESCARGAR CV</a>
+                        <a className={bgCard.btnBoton} href="/Amalia-Ribeiro-dev-front-02-2024-CV.pdf" download="Amalia-Ribeiro-dev-front-02-2024-CV.pdf">DESCARGAR CV</a>
                         
                     </div>
                 </div>
