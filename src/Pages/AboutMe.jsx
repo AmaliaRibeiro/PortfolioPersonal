@@ -39,7 +39,7 @@ export const AboutMe = () => {
                             <Skills className={cardCss.contenedorHome} />
                         </Col>
                         <Col className={cardCss.contenedorHome}>
-                            <Navbar />
+                           
 
                         </Col>
                     </Row>

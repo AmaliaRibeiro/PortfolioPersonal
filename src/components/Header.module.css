@@ -22,3 +22,8 @@
       text-align: center;
     }
   }
+  @media (max-width: 412px) {
+    .bgHeader {
+     width: 100%;
+    }
+  }

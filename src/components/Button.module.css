@@ -431,7 +431,7 @@
   }
 
   .card3 {
-    margin: 0px;
+    
     width: 100%;
     justify-self: center;
     align-items: center;
@@ -608,6 +608,23 @@
   }
   .btnTitle {
     margin-left: 130px;
+    width: 40%;
     
+  }
+  .containerBtn {
+   width: 100%;
+
+  }
+  .card2 {
+   margin-left: 6%;
+  }
+  .card3 {
+    margin-left: 20px;
+  }
+  .card4 {
+    margin-left: 15%;
+  }
+  .arriba {
+    margin-left: 180px;
   }
 }
