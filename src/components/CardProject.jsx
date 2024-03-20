@@ -1,11 +1,10 @@
 import button from './Button.module.css'
 
 export const CardProject = () => {
-    const Styles = { color: 'grey', textAlign: 'center', marginLeft: '520px',}
+    
     return (
         <>
-
-            <h2 style={Styles}> PROYECTOS </h2>
+            <h2 className={button.titleProject}> PROYECTOS </h2>
 
             <div className={button.containerCardPro}>
                 <div className={button.card6}>

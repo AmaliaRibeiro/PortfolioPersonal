@@ -1,8 +1,8 @@
 import React from 'react'
 import { Skills } from '../components/Skills'
-import Navbar from '../components/Navbar'
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
+import Navbar from '../components/Navbar'
 import cardCss from '../components/Card.module.css'
 import button from '../components/Button.module.css'
 
@@ -39,8 +39,7 @@ export const AboutMe = () => {
                             <Skills className={cardCss.contenedorHome} />
                         </Col>
                         <Col className={cardCss.contenedorHome}>
-                           
-
+                           <Navbar/>
                         </Col>
                     </Row>
                 </Container>

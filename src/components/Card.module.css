@@ -163,8 +163,6 @@
   @media (max-width: 600px) {
     .contenedorHome {
      justify-content: center;
-     padding-left: 2px;
-     place-items: center;
      }
      .card {
       width: 90%;
@@ -196,9 +194,11 @@
      justify-content: center;
      padding-left: 2px;
      place-items: center;
+     padding: 0px;
      }
      .card {
-      width: 100%;
+      margin-left: 50px;
+      width: 95%;
     }
     .container1 img{
       height: 20%;

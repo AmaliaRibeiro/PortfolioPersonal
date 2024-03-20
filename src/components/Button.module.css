@@ -395,6 +395,16 @@
   text-align: center;
 
 }
+.titleProject {
+  color: grey;
+  text-align: center; 
+}
+.titleContact {
+  color: grey; 
+  text-align: center;
+  
+  
+}
 
 .cardProject img {
   width: 410px;
@@ -412,6 +422,9 @@
 }
 
 @media (max-width: 768px) {
+  .contenedorHome {
+    padding: 0;
+  }
   .containerSkills {
     grid-template-columns: repeat(4, 1fr);
     width: 70%;
@@ -448,7 +461,11 @@
     width: 85%;
     margin: auto;
   }
-
+  .titleContact {
+   
+    margin-left: 22%; 
+    
+  }
   .arriba {
     margin-left: 40%;
   }
@@ -485,7 +502,9 @@
   }
 
   .cardContact {
-    margin-left: 0
+    margin-left: 0;
+    margin: 0px;
+    width: auto;
   }
 
   .skills {
@@ -531,22 +550,29 @@
   }
 
   .cardContact {
-    width: 90%;
+    width: 95%;
     font-size: 18px;
     border: none;
+    padding: 10px;
+  }
+  .cardExperience {
+    margin-top: 0px;
   }
 
   .card2 {
     height: 800px;
     grid-template-columns: 2fr 2fr;
     place-items: center;
+    margin-bottom: 20px;
   }
 
   .card2 img {
     margin-left: 0;
     width: 100%;
   }
-
+.card3 {
+  margin-left: 0px;
+}
   .card4 {
     margin: auto;
   }
@@ -566,6 +592,13 @@
 
   .card5 {
     width: 100%;
+    text-align: center;
+    margin-left: 18%;
+  }
+  .btnTitle {
+   width: auto;
+   margin-left: 0px;
+    box-shadow: none;
   }
 }
 
@@ -581,7 +614,12 @@
     width: 280px;
     margin: auto;
   }
-
+  
+  .titleContact {
+   
+    margin-left: 38%; 
+    
+  }
   .card6 {
     width: 330px;
     margin: auto;
@@ -589,7 +627,7 @@
   }
 
   .containerCardPro {
-    margin: auto;
+    width: 90%;
     margin-left: 70px;
   }
 
@@ -598,22 +636,19 @@
   }
 
   .btnBoton {
-    width: 30px;
+    width: 50px;
   }
   .card {
     margin: 0px;
     width: 81%;
     margin-left: 100px;
     place-items: center;
+    margin-bottom: 15px;
   }
   .btnTitle {
     margin-left: 130px;
     width: 40%;
     
-  }
-  .containerBtn {
-   width: 100%;
-
   }
   .card2 {
    margin-left: 6%;
@@ -624,7 +659,14 @@
   .card4 {
     margin-left: 15%;
   }
+  .cardContact {
+height: 10%;
+  }
   .arriba {
     margin-left: 180px;
   }
+  .containerBtn {
+    width: 100%;
+   }
+ 
 }
