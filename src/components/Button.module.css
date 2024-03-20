@@ -402,8 +402,6 @@
 .titleContact {
   color: grey; 
   text-align: center;
-  
-  
 }
 
 .cardProject img {
@@ -469,33 +467,26 @@
   .arriba {
     margin-left: 40%;
   }
-
   .card4 {
     width: 80%;
     margin-left: 0;
     margin: auto;
     grid-template-columns: 2fr 2fr;
   }
-
   .cardCertif {
-
     width: 180px;
   }
-
   .containerCardPro {
     display: block;
     margin-left: 0;
     width: 100%;
   }
-
   .card6 {
     margin: auto;
   }
-
   .containerCardPro h2 {
     margin-left: 0;
   }
-
   .card5 {
     display: block;
     margin-left: 25%;
@@ -614,11 +605,11 @@
     width: 280px;
     margin: auto;
   }
-  
+  .titleProject {
+    margin-left: 28%; 
+  }
   .titleContact {
-   
     margin-left: 38%; 
-    
   }
   .card6 {
     width: 330px;

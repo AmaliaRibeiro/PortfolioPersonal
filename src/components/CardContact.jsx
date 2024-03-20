@@ -18,7 +18,7 @@ export const CardContact = () => {
                         dispuesta a resolver problemas, a trabajar en equipo, adaptable a los cambios.
                         Con tiempo full-time, disponible para incorporarse inmediatamente. Podes enviarme un Email directamente.
                     </p>
-                    <div className={button.containerBtn}>
+                    <div className={button.containerBtn2}>
                     <a href="mailto:amalita9421@gmail.com" target="_blank" className={button.btnBoton}> Enviar Email</a>
                     </div>
                     <p><MdAttachEmail/> amalita9421@gmail.com</p> <hr/>
