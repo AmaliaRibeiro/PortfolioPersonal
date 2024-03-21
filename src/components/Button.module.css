@@ -224,9 +224,7 @@
   margin-top: 50px;
   color: white;
   width: 70%;
-
 }
-
 .cardContact {
   width: 90%;
   background-image: url("../images/bgBody-i.png");
@@ -240,27 +238,22 @@
   text-align: center;
   font-size: 19px;
 }
-
 .imgMap {
   display: block;
   border: 1px solid rgb(108, 96, 102);
   padding: 10px;
 }
-
 .imgMap img {
   width: 100%;
   height: 70%;
 }
-
 .containerBtn2 {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
-
 }
-
 .btnBoton2 {
   max-width: 200px;
   min-width: 150px;
@@ -289,16 +282,13 @@
   /* Espacio entre las imágenes, ajusta según sea necesario */
   padding: 20px;
   width: 100%;
-
 }
-
 .skills {
   width: 60px;
   padding: 20px;
   background-color: grey;
   border: 8px white;
 }
-
 .title {
   text-align: center;
   margin-top: 6%;
@@ -307,7 +297,6 @@
 }
 
 .card2 img {
-
   width: 78%;
   height: 200px;
   margin-left: 35px;
@@ -318,7 +307,6 @@
   font-size: 15px;
   grid-column: span 1;
   /* La etiqueta abarcará dos columnas */
-
   text-align: center;
 
 }
@@ -342,7 +330,6 @@
 .containerCardPro {
   display: grid;
   grid-template-columns: 2fr 2fr;
-
   /* Borde de la tarjeta */
   border-radius: 8px;
   /* Bordes redondeados */
@@ -398,10 +385,12 @@
 .titleProject {
   color: grey;
   text-align: center; 
+  margin-left: 52%;
 }
 .titleContact {
   color: grey; 
   text-align: center;
+  margin-left: 13%;
 }
 
 .cardProject img {
