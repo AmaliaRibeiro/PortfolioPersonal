@@ -16,7 +16,7 @@ export const CardContact = () => {
                 <div className={button.cardContact}>
                     <p>Si buscas alguien con muchas ganas de crecer, aprender, de aportar a tu equipo entusiasmo, autodidacta
                         dispuesta a resolver problemas, a trabajar en equipo, adaptable a los cambios.
-                        Con tiempo full-time, disponible para incorporarse inmediatamente. Podes enviarme un Email directamente.
+                        Con tiempo full-time, disponible para incorporarse inmediatamente. Podes enviarme un Email directamente a:
                     </p>
                     <div className={button.containerBtn2}>
                     <a href="mailto:amalita9421@gmail.com" target="_blank" className={button.btnBoton}> Enviar Email</a>

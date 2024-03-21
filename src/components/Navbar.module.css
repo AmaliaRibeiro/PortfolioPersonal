@@ -116,9 +116,10 @@
   }
   .iconsStyles {
     color: 'white'; 
-    font-size: 30px; 
+    font-size: 27px; 
     padding-top: 20px;
     padding-bottom: 20px; 
+    text-align: center;
   }
 }
   @media (max-width: 412px) {

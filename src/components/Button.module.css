@@ -32,11 +32,9 @@
   text-decoration: none;
   padding: 10px;
   text-align: center;
-
 }
-
 .btnTitle {
-  margin: 0 20px 40px;
+  margin: auto;
   text-transform: uppercase;
   color: grey;
   font-weight: 700;
@@ -47,9 +45,7 @@
   text-align: center;
   width: 10%;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
-  margin-left: 45%;
 }
-
 :hover .btnBoton {
   transform: scale(1.05);
   text-shadow:
@@ -63,15 +59,13 @@
     0 0 80px rgba(255, 255, 255, .2),
     0 0 120px rgba(255, 255, 255, .1);
 }
-
 .activo {
   color: white;
 }
-
 .contenido {
   color: white;
+  margin: 20px;
 }
-
 .card {
   display: flex;
   border: 1px solid white;
@@ -94,7 +88,7 @@
   margin-top: 50px;
   color: white;
   width: 100%;
-
+ text-align: center;
 }
 
 .card2 {
@@ -144,7 +138,6 @@
   width: 850px;
   /*background-image: url("../images/overhead-view-pink-color-powder-explosion-with-copy-space-text-black-surface.png");*/
 }
-
 .cardExperience {
   width: 810px;
   /*background-color: black;version 1*/
@@ -157,7 +150,6 @@
   border: 1px solid rgb(108, 96, 102);
   font-size: 18px;
 }
-
 .card4 {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -181,7 +173,6 @@
   color: white;
   width: 60%;
 }
-
 .cardInterest {
   /*background-color: black;version 1*/
   background-image: url("../images/bgBody-i.png");
@@ -193,16 +184,13 @@
   border: 1px solid rgb(108, 96, 102);
 
 }
-
 .cardInterest p {
   font-size: 18px;
 }
-
 .title3 {
   width: 100%;
   text-align: center;
 }
-
 .card5 {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -269,11 +257,9 @@
   text-align: center;
   justify-self: center;
 }
-
 .btnBoton2:hover {
   transform: scale(1.05);
 }
-
 .containerSkills {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -295,14 +281,12 @@
   font-size: 20px;
   color: black
 }
-
 .card2 img {
   width: 78%;
   height: 200px;
   margin-left: 35px;
   transition: transform 0.3s ease-in-out;
 }
-
 .certificadoTitle1 {
   font-size: 15px;
   grid-column: span 1;
@@ -310,23 +294,19 @@
   text-align: center;
 
 }
-
 .certificadoTitle2 {
   font-size: 17px;
   grid-column: span 2;
   /* La etiqueta abarcará dos columnas */
   text-align: center;
 }
-
 .cardCertif {
   transition: transform 0.3s ease-in-out;
 }
-
 .cardCertif:hover {
   transform: scale(1.05);
   /* Efecto de escala al hacer hover */
 }
-
 .containerCardPro {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -341,7 +321,6 @@
   place-items: center;
   margin-top: 40px;
 }
-
 .card6 {
   border: 1px solid white;
   /* Borde de la tarjeta */
@@ -369,7 +348,6 @@
   transform: scale(1.05);
   /* Efecto de escala al hacer hover */
 }
-
 .cardProject {
   width: 410px;
   background-color: black;
@@ -392,20 +370,17 @@
   text-align: center;
   margin-left: 13%;
 }
-
 .cardProject img {
   width: 410px;
   height: 230px;
 }
-
 .arriba {
-  width: 100px;
+  width: 100%;
   color: grey;
   padding: 10px;
-
   font-size: 60px;
   text-align: center;
-  margin-left: 750px;
+  margin-left: 48%;
 }
 
 @media (max-width: 768px) {
@@ -414,47 +389,42 @@
   }
   .containerSkills {
     grid-template-columns: repeat(4, 1fr);
-    width: 70%;
+    width: 100%;
   }
-
   .card {
     margin-left: 0;
     justify-content: flex-start;
-
   }
-
   .btnBoton {
     margin: auto;
     width: 100px;
     padding: 10px;
     font-size: 14px;
   }
-
   .card3 {
-    
     width: 100%;
     justify-self: center;
     align-items: center;
+    margin: auto;
   }
-
   .card2 {
     width: 100%;
     margin: 0px;
     height: 700px;
     margin: auto;
   }
-
   .cardExperience {
-    width: 85%;
+    width: 90%;
     margin: auto;
   }
   .titleContact {
-   
     margin-left: 22%; 
-    
+  }
+  .titleProject {
+    margin-left: 5%; 
   }
   .arriba {
-    margin-left: 40%;
+    margin-left: 45%;
   }
   .card4 {
     width: 80%;
@@ -480,24 +450,24 @@
     display: block;
     margin-left: 25%;
   }
-
   .cardContact {
     margin-left: 0;
     margin: 0px;
     width: auto;
   }
-
   .skills {
     width: 35px;
     height: 30px;
   }
+  .btnTitle {
+    width: 20%;
+    margin-bottom: 40px;
+  }
 }
-
 @media (max-width: 600px) {
   .contenedorHome h2 {
     margin-left: 0;
   }
-
   .containerBtn {
     display: grid;
     grid-template-columns: repeat(3, fr);
@@ -507,28 +477,21 @@
     align-items: center;
     text-align: center;
   }
-
   .btnBoton2 {
     font-size: 12px;
   }
-
   .card {
     margin: 0px;
     width: 81%;
     margin-left: 100px;
   }
-
   .btnBoton {
-    
     font-size: 13px;
     background-color: white;
-
   }
-
   .certificadoTitle2 {
     font-size: 11px;
   }
-
   .cardContact {
     width: 95%;
     font-size: 18px;
@@ -538,14 +501,12 @@
   .cardExperience {
     margin-top: 0px;
   }
-
   .card2 {
     height: 800px;
     grid-template-columns: 2fr 2fr;
     place-items: center;
     margin-bottom: 20px;
   }
-
   .card2 img {
     margin-left: 0;
     width: 100%;
@@ -556,30 +517,30 @@
   .card4 {
     margin: auto;
   }
-
   .cardProject {
     width: 300px;
     margin: auto;
   }
-
   .cardProject img {
     width: 300px;
   }
-
   .card6 {
     width: 360px;
   }
-
   .card5 {
     width: 100%;
     text-align: center;
     margin-left: 18%;
   }
   .btnTitle {
-   width: auto;
-   margin-left: 0px;
-    box-shadow: none;
-  }
+ width: 23%;
+}
+.titleContact {
+  margin-left: 30%; 
+}
+.titleProject {
+  margin-left: 35%; 
+}
 }
 
 @media (max-width: 412px) {
@@ -587,9 +548,7 @@
     width: 280px;
     margin: auto;
     place-items: center;
-
   }
-
   .cardProject img {
     width: 280px;
     margin: auto;
@@ -598,7 +557,7 @@
     margin-left: 28%; 
   }
   .titleContact {
-    margin-left: 38%; 
+    margin-left: 31%; 
   }
   .card6 {
     width: 330px;
@@ -610,11 +569,9 @@
     width: 90%;
     margin-left: 70px;
   }
-
   .cardCertif {
     width: 160px;
   }
-
   .btnBoton {
     width: 50px;
   }
@@ -632,6 +589,7 @@
   }
   .card2 {
    margin-left: 6%;
+   height: 50%;
   }
   .card3 {
     margin-left: 20px;

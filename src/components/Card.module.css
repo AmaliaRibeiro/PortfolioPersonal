@@ -23,7 +23,6 @@
   .container1 {
     text-align: center;
   }
-
   .container2 {
     flex: 1;
     padding: 20px;
@@ -60,14 +59,12 @@
     width: 95%;
     text-align: justify;
   }
-
   .containerBtn {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-
   .btnBoton {
     /*position:relative;
     max-width: 200px;
@@ -110,23 +107,18 @@
     0 0 80px rgba(255, 255, 255, .2),
     0 0 120px rgba(255, 255, 255, .1);
    }
- 
-  
    .contenedorHome {
     display: flex; /* Utilizar flexbox para alinear los elementos en línea */
     justify-content: space-between; /* Espaciar los elementos horizontalmente */
     padding: 20px; /* Agregar relleno al contenedor según sea necesario */
     /*margin-top: 10px; version1*/
-   
    }
    .contenedorHome .Navbar {
     width: 50%;
    }
-
    .contenedorHome .Card {
     width: 50%;
    }
-  
    @media (max-width: 768px) {
     .containerAbout {
      align-items: center;
@@ -145,7 +137,6 @@
     }
     .container1 img{
       height: 520px;
-      
     }
     .cardTitle {
       margin-top: 0px;
